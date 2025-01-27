@@ -1,5 +1,4 @@
 //Calc
-
 const display = document.getElementById("display");
 
 function appendToDisplay(input){
@@ -13,6 +12,6 @@ function calculate(){
         display.value = eval(display.value);
     }
     catch(error){
-        display.value = "Error";
+        display.value = "Error for trying to calculate like its a code editor ;)";
     }
 }
